@@ -180,6 +180,12 @@ body {
     margin: 5%;
 }
 
+.page2-logos-vue {
+    height: 60px;
+    object-fit: cover;
+    margin: 7%;
+}
+
 .card3-title {
     font-size: 32px;
     font-weight: 700;
