@@ -3,7 +3,7 @@
     align-items: center;
     padding-top: 38px;
     padding-bottom: 38px;
-    border-bottom: 2px solid #CCCCCC;
+    border-bottom: 3px solid #CCCCCC;
 }
 
 .header-logo {
@@ -27,7 +27,7 @@
     justify-content: space-between;
     padding-top: 38px;
     padding-bottom: 38px;
-    border-top: 2px solid #CCCCCC;
+    border-top: 3px solid #CCCCCC;
 }
 
 .footer-logo {
