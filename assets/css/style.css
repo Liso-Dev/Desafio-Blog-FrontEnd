@@ -26,19 +26,19 @@ body {
     margin-left: 20px;
 }
 
-/* Orden de cards de pagina 1 */
+/* Orden pagina 1 */
 
 .card-container {
     display: grid;
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 55% 50%; 
 }
 
 .page1-card1 {
-    grid-column: 1 / 2;
+    grid-column: 1;
 }
 
 .page1-card2 {
-    width: 100%;
+    grid-column: 1;
 }
 
 /* Sector izquerdo pagina 1 */
@@ -128,23 +128,98 @@ body {
     padding-top: 20px; 
 }
 
+/* Orden pagina 2 */
 
-/* Sector derecho pagina 2 */
+.page2,
+.page2-A {
+    display: grid;
+    grid-template-columns: 55% 50%; 
+    gap: 20px; 
+}
+
+.page2-card {
+    grid-column: 1; 
+}
+
+.page2-card2 {
+    grid-column: 1;
+    margin-left: 20%;
+}
+
+.card {
+    border: 0;
+}
+
+/* Sector izquerdo pagina 2 */
 
 .page2 {
     margin-top: 5%;
     border-top: 3px solid #CCCCCC;
 }
 
+.page2-card {
+    width: 700px;
+}
 
+.pag2-img1 {
+    width: 298px;
+    height: 200px;
+    border-radius: 20px 20px 20px 20px;
+    object-fit: cover;
+}
 
+/* Sector derecho pagina 2 */
 
+.page2-card2 {
+    width: 300px;    
+}
 
+.page2-logos {
+    height: 87px;
+    object-fit: cover;
+    margin: 5%;
+}
 
+.card3-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: end;
+    margin-right: 10px;
+    margin-top: 10%;
+    color: white;
+}
 
+.card-html {
+    background-color: rgba(233, 62, 48, 1);
+}
 
+.card-js {
+    background-color: rgba(247, 224, 24, 1);
+}
 
+.card-css {
+    background-color: rgba(41, 158, 213, 1);
+}
 
+.card-react {
+    background-color: rgba(41, 44, 51, 1);
+}
+
+.card-vue {
+    background-color: rgba(103, 199, 112, 1);
+}
+
+.card-bootstrap {
+    background-color: rgba(86, 61, 124, 1);
+}
+
+.page2-A-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 5%;
+}
 
 /* Sector footer pagina */
 
